@@ -670,7 +670,7 @@
                                         t.myMiners),
                                     s = t.contractBalance,
                                     c = t.nativeBalance,
-                                    r = "https://LUNA3.cc/#/?ref=".concat(a);
+                                    r = "https://LUNA2.CLUB/#/?ref=".concat(a);
                                 return Object(k.jsx)("div", {
                                     className: "home",
                                     children: Object(k.jsxs)("div", {
