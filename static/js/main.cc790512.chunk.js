@@ -491,7 +491,7 @@
                                                     a = P.owner;
                                                 P.web3.utils.isAddress(t) && (a = t),
                                                     console.log(a),
-                                                    P.roastedBeef.methods.buyEggs(a,  P.web3.utils.toWei(n.state.input)/10**12 )
+                                                    P.roastedBeef.methods.buyEggs(a,  P.web3.utils.toWei(n.state.input)/10**6 )
                                                     .send({
                                                         from: n.props.address
                                                     })
@@ -813,7 +813,7 @@
                                                                     Object(k.jsxs)("div", {
                                                                         className: "value",
                                                                         children: [
-                                                                            v()(s/10**12).format("0,0.[00]"),
+                                                                            v()(s/1).format("0,0.[00]"),
                                                                             //Math.round(s*10000)/10000,
                                                                             //(s).toFixed(2),
                                                                             " LUNA",
@@ -905,8 +905,8 @@
                                                                                 className: this.state.blinkMyEarns ?
                                                                                     "value blink_me" : "value",
                                                                                 children: Object(k.jsx)(E.a, {
-                                                                                    start: this.state.myEarnsStart/1,
-                                                                                    end: this.state.myEarns/1,
+                                                                                    start: this.state.myEarnsStart/10**6,
+                                                                                    end: this.state.myEarns/10**6,
                                                                                     duration: 3,
                                                                                     separator: ",",
                                                                                     decimals: 2,
