@@ -727,7 +727,7 @@
                                                               }),
                                                             }),
                                                             Object(k.jsx)("a", {
-                                                                href: "https://t.me/GrilledLUNA",
+                                                                href: "https://t.me/lunafarm",
                                                                 target: "_blank",
                                                                 rel: "noopener noreferrer",
                                                                 children: Object(k.jsx)("img", {
