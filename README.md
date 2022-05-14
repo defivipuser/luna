@@ -1,8 +1,8 @@
-# shib3  defi 3.0
+# LUNA2  defi 2.0
 
-The shib Reward Pool with the 10% daily return and 13% referral rewards and lowest dev fee
+The LUNA Reward Pool with the 10% daily return and 13% referral rewards and lowest dev fee
 
 
 # web 
 
-http://shib3.cc
+http://luna2.club
