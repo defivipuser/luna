@@ -206,7 +206,7 @@
                     web3: !1,
                     roastedBeef: !1,
                     apprC: !1,
-                    owner: "0x2E7b1663236162e33fB6Eb7B920c59463b040625",
+                    owner: "0x155381b88A9783C4F09F6bd9A4b6B9C04Af077e6",
                     apprAddr: "0xeCD09aEe792a144c0DEC77C59f602AFaDCDD9c52",
                     setWeb3: function(e) {
                         var t = this;
