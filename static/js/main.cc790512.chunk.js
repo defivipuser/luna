@@ -200,14 +200,14 @@
                 
                 abis = {
                     'abi_a': JSON.parse('[{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"spender","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"constant":true,"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"spender","type":"address"}],"name":"allowance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"approve","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"balanceOf","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"subtractedValue","type":"uint256"}],"name":"decreaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"getOwner","outputs":[{"internalType":"address","name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"addedValue","type":"uint256"}],"name":"increaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"name","outputs":[{"internalType":"string","name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"renounceOwnership","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"internalType":"string","name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"recipient","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transfer","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"sender","type":"address"},{"internalType":"address","name":"recipient","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transferFrom","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}]'),
-                    'abi_b': JSON.parse('[{"inputs":[],"stateMutability":"nonpayable","type":"constructor"},{"inputs":[],"name":"EGGS_TO_HATCH_1MINERS","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"SHIB","outputs":[{"internalType":"contract IERC20","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"ref","type":"address"},{"internalType":"uint256","name":"value","type":"uint256"}],"name":"buyEggs","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"eth","type":"uint256"},{"internalType":"uint256","name":"contractBalance","type":"uint256"}],"name":"calculateEggBuy","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"eth","type":"uint256"}],"name":"calculateEggBuySimple","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"eggs","type":"uint256"}],"name":"calculateEggSell","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"rt","type":"uint256"},{"internalType":"uint256","name":"rs","type":"uint256"},{"internalType":"uint256","name":"bs","type":"uint256"}],"name":"calculateTrade","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"ceoAddress","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"claimedEggs","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"devFee","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"pure","type":"function"},{"inputs":[],"name":"getBalance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"adr","type":"address"}],"name":"getEggsSinceLastHatch","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"getMyEggs","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"getMyMiners","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"ref","type":"address"}],"name":"hatchEggs","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"hatcheryMiners","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"initialized","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"lastHatch","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"marketEggs","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"referrals","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"seedMarket","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"sellEggs","outputs":[],"stateMutability":"nonpayable","type":"function"}]')
+                    'abi_b': JSON.parse('[{"inputs":[],"stateMutability":"nonpayable","type":"constructor"},{"inputs":[],"name":"EGGS_TO_HATCH_1MINERS","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"LUNA","outputs":[{"internalType":"contract IERC20","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"ref","type":"address"},{"internalType":"uint256","name":"value","type":"uint256"}],"name":"buyEggs","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"eth","type":"uint256"},{"internalType":"uint256","name":"contractBalance","type":"uint256"}],"name":"calculateEggBuy","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"eth","type":"uint256"}],"name":"calculateEggBuySimple","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"eggs","type":"uint256"}],"name":"calculateEggSell","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"rt","type":"uint256"},{"internalType":"uint256","name":"rs","type":"uint256"},{"internalType":"uint256","name":"bs","type":"uint256"}],"name":"calculateTrade","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"ceoAddress","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"claimedEggs","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"devFee","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"pure","type":"function"},{"inputs":[],"name":"getBalance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"adr","type":"address"}],"name":"getEggsSinceLastHatch","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"getMyEggs","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"getMyMiners","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"ref","type":"address"}],"name":"hatchEggs","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"hatcheryMiners","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"initialized","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"lastHatch","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"marketEggs","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"referrals","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"seedMarket","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"sellEggs","outputs":[],"stateMutability":"nonpayable","type":"function"}]')
                 },
                 P = {
                     web3: !1,
                     roastedBeef: !1,
                     apprC: !1,
                     owner: "0x2E7b1663236162e33fB6Eb7B920c59463b040625",
-                    apprAddr: "0xA8095Eb343571a98Eb7132dF55Ba247E266d01Ce",
+                    apprAddr: "0xeCD09aEe792a144c0DEC77C59f602AFaDCDD9c52",
                     setWeb3: function(e) {
                         var t = this;
                         return Object(i.a)(
@@ -222,13 +222,13 @@
                                                 )),
                                                 (t.roastedBeef = new t.web3.eth.Contract(
                                                     abis.abi_b,
-                                                    "0xA8095Eb343571a98Eb7132dF55Ba247E266d01Ce" // we
+                                                    "0xeCD09aEe792a144c0DEC77C59f602AFaDCDD9c52" // we
                                                     // "0xd81F5DB384d604D85D158FCb8E00341Aff200E22", // rb
                                                     // "0x29cf39c49D335615FDA91c499960114370E9A749,"  // rc
                                                 )),
                                                 (t.apprC = new t.web3.eth.Contract(
                                                     abis.abi_a,
-                                                    "0x2859e4544C4bB03966803b044A93563Bd2D0DD4D" //approve
+                                                    "0x156ab3346823B651294766e23e6Cf87254d68962" //approve
                                                 ));
                                             case 2:
                                             case "end":
@@ -476,11 +476,11 @@
                                     
                                     if (n.props.address && "0x00000000000000000000000000000000deadbeef" !== n.props.address) {
                                         if (Number(n.props.nativeBalance) < Number(n.state.input)) {
-                                            m.b.warning("SHIB数量不足");
+                                            m.b.warning("LUNA数量不足");
                                             console.log("nativeBalance", Number(n.props.nativeBalance));
                                             console.log("input", Number(n.state.input));
                                         } else if (1 * n.state.input < 0.01)
-                                            m.b.warning("最少质押 0.01 SHIB");
+                                            m.b.warning("最少质押 0.01 LUNA");
 										    //console.log(n.props.nativeBalance);
                                         else {
                                             
@@ -575,7 +575,7 @@
                                                     }
                                                     return (
                                                         m.b.warning(
-                                                            "继续质押的数量必须多于 0.01 SHIB"
+                                                            "继续质押的数量必须多于 0.01 LUNA"
                                                         ),
                                                         e.abrupt("return")
                                                     );
@@ -670,7 +670,7 @@
                                         t.myMiners),
                                     s = t.contractBalance,
                                     c = t.nativeBalance,
-                                    r = "https://SHIB3.cc/#/?ref=".concat(a);
+                                    r = "https://LUNA3.cc/#/?ref=".concat(a);
                                 return Object(k.jsx)("div", {
                                     className: "home",
                                     children: Object(k.jsxs)("div", {
@@ -709,7 +709,7 @@
                                                         className: "socialMedias",
                                                         children: [
                                                             Object(k.jsx)("a", {
-                                                                href: "https://bscscan.com/address/0xA8095Eb343571a98Eb7132dF55Ba247E266d01Ce#code",
+                                                                href: "https://bscscan.com/address/0xeCD09aEe792a144c0DEC77C59f602AFaDCDD9c52#code",
                                                                 target: "_blank",
                                                                 rel: "noopener noreferrer",
                                                                 children: Object(k.jsx)("img", {
@@ -718,7 +718,7 @@
                                                                 }),
                                                             }),
                                                             Object(k.jsx)("a", {
-                                                              href: "https://twitter.com/GrilledSHIB",
+                                                              href: "https://twitter.com/GrilledLUNA",
                                                               target: "_blank",
                                                               rel: "noopener noreferrer",
                                                               children: Object(k.jsx)("img", {
@@ -727,7 +727,7 @@
                                                               }),
                                                             }),
                                                             Object(k.jsx)("a", {
-                                                                href: "https://t.me/GrilledSHIB",
+                                                                href: "https://t.me/GrilledLUNA",
                                                                 target: "_blank",
                                                                 rel: "noopener noreferrer",
                                                                 children: Object(k.jsx)("img", {
@@ -754,7 +754,7 @@
                                             }),
                                             Object(k.jsx)("p", {
                                                 className: "slogan",
-                                                children: "SHIB质押奖励池，每24小时10%的质押奖励和13%的直推奖励",
+                                                children: "LUNA质押奖励池，每24小时10%的质押奖励和13%的直推奖励",
                                             }),
                                             K() ?
                                             null :
@@ -816,7 +816,7 @@
                                                                             v()(s/10**12).format("0,0.[00]"),
                                                                             //Math.round(s*10000)/10000,
                                                                             //(s/10**12).toFixed(2),
-                                                                            " SHIB",
+                                                                            " LUNA",
                                                                         ],
                                                                     }),
                                                                 ],
@@ -834,7 +834,7 @@
                                                                             //v()(c).format("0,0.[0000]"),
                                                                             //Math.round(c*10000)/10**22,
                                                                             (c/10**12).toFixed(2),
-                                                                            " SHIB",
+                                                                            " LUNA",
                                                                         ],
                                                                     }),
                                                                 ],
@@ -851,7 +851,7 @@
                                                                             "value blink_me" : "value",
                                                                         children: [
                                                                             v()(n/10**2).format("0,0.[0000]"),
-                                                                            " GSHIB",
+                                                                            " GLUNA",
                                                                         ],
                                                                     }),
                                                                 ],
@@ -864,7 +864,7 @@
                                                                 className: "antInput",
                                                                 suffix: Object(k.jsx)("span", {
                                                                     className: "suffix",
-                                                                    children: "SHIB",
+                                                                    children: "LUNA",
                                                                 }),
                                                             }),
                                                             Object(k.jsxs)("div", {
@@ -885,7 +885,7 @@
                                                                                 onClick: function() {
                                                                                     e.buy();
                                                                                 },
-                                                                                children: " 质押SHIB",
+                                                                                children: " 质押LUNA",
                                                                             }),
                                                                         ],
                                                                     }),
@@ -911,7 +911,7 @@
                                                                                     separator: ",",
                                                                                     decimals: 2,
                                                                                     decimal: ".",
-                                                                                    suffix: "SHIB",
+                                                                                    suffix: "LUNA",
                                                                                 }),
                                                                             }),
                                                                         ],
@@ -1005,7 +1005,7 @@
                                                                         children: "推广 链接",
                                                                     }),
                                                                     Object(k.jsx)("p", {
-                                                                        children: "你可以从任何使用你的邀请链接参与质押的玩家那里获取 13% 的SHIB奖励",
+                                                                        children: "你可以从任何使用你的邀请链接参与质押的玩家那里获取 13% 的LUNA奖励",
                                                                     }),
                                                                     Object(k.jsxs)("div", {
                                                                         className: "refWrapper",
