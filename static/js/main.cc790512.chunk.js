@@ -815,7 +815,7 @@
                                                                         children: [
                                                                             v()(s/10**12).format("0,0.[00]"),
                                                                             //Math.round(s*10000)/10000,
-                                                                            //(s/10**12).toFixed(2),
+                                                                            //(s).toFixed(2),
                                                                             " LUNA",
                                                                         ],
                                                                     }),
@@ -833,7 +833,7 @@
                                                                         children: [
                                                                             //v()(c).format("0,0.[0000]"),
                                                                             //Math.round(c*10000)/10**22,
-                                                                            (c/10**12).toFixed(2),
+                                                                            (c).toFixed(2),
                                                                             " LUNA",
                                                                         ],
                                                                     }),
@@ -905,8 +905,8 @@
                                                                                 className: this.state.blinkMyEarns ?
                                                                                     "value blink_me" : "value",
                                                                                 children: Object(k.jsx)(E.a, {
-                                                                                    start: this.state.myEarnsStart/10**12,
-                                                                                    end: this.state.myEarns/10**12,
+                                                                                    start: this.state.myEarnsStart/1,
+                                                                                    end: this.state.myEarns/1,
                                                                                     duration: 3,
                                                                                     separator: ",",
                                                                                     decimals: 2,
