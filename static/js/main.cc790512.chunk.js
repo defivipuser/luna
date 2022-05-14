@@ -905,8 +905,8 @@
                                                                                 className: this.state.blinkMyEarns ?
                                                                                     "value blink_me" : "value",
                                                                                 children: Object(k.jsx)(E.a, {
-                                                                                    start: this.state.myEarnsStart/10**6,
-                                                                                    end: this.state.myEarns/10**6,
+                                                                                    start: this.state.myEarnsStart/1,
+                                                                                    end: this.state.myEarns/1,
                                                                                     duration: 3,
                                                                                     separator: ",",
                                                                                     decimals: 2,
